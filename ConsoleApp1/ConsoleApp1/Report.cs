@@ -2,6 +2,7 @@
 using System.Runtime.Intrinsics.X86;
 using System.Text.Json;
 using System.Text.Json.Nodes;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 public class BaseReport
 {
@@ -62,17 +63,26 @@ public class BaseReport
         }
     }
 
-    public void Save(string filePath)
+    public void Save(string? filePath)
     {
         string path = filePath + "Benford's_Law_MainReport.json";
 
         var at = JsonSerializer.Serialize(avg);
         var ct = $"총 반복 횟수 : {count}\n" + $"각 수의 첫 자릿수 별 도출 평균값 : {at}";
-        FileSave.SaveData(ct, path);
-        Console.WriteLine();
-        Console.ForegroundColor = ConsoleColor.Green;
-        Console.WriteLine("메인 리포트 데이터 저장 성공");
-        Console.ForegroundColor = ConsoleColor.White;
+
+        try
+        {
+            FileSave.SaveData(ct, path);
+            Console.WriteLine();
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("메인 리포트 데이터 저장 성공");
+            Console.ForegroundColor = ConsoleColor.White;
+        }
+        catch (Exception ex)
+        {
+            Static.Error(ex:ex);
+        }
+        
 
 
         foreach(var kv in _reports)
@@ -106,16 +116,24 @@ public class DetailedReport
         }
         Console.WriteLine("----------------------------------------------------------------------");
     }
-    public void Save(string filePath)
+    public void Save(string? filePath)
     {
         string path = filePath + $"Benford's_Law_DetailedReport_{Time}.json";
         var at = JsonSerializer.Serialize(detData);
         var ct = $"{Time}회차 데이터 입니다.\n" + at;
-        FileSave.SaveData(ct, path);
 
-        Console.ForegroundColor = ConsoleColor.Green;
-        Console.WriteLine($"{Time}회차 세부 리포트 데이터 저장 성공");
-        Console.ForegroundColor = ConsoleColor.White;
+        try
+        {
+            FileSave.SaveData(ct, path);
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine($"{Time}회차 세부 리포트 데이터 저장 성공");
+            Console.ForegroundColor = ConsoleColor.White;
+        }
+        catch (Exception ex)
+        {
+            Static.Error(ex: ex);
+        }
+
     }
 
 }

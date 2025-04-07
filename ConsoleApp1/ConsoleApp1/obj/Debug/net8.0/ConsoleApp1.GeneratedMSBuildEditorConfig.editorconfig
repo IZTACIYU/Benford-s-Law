@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ConsoleApp1
-build_property.ProjectDir = C:\Users\Administrator\Desktop\새 폴더\ConsoleApp1\ConsoleApp1\
+build_property.ProjectDir = D:\2021391017JHJ\Benford-s-Law\ConsoleApp1\ConsoleApp1\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

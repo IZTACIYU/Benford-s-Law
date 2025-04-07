@@ -1,11 +1,40 @@
 ﻿using System.Text.Json;
 using System.Text.Json.Serialization;
 
-public class Static
+static public class Static
 {
+    public enum PathWay
+    {
+        Reports = 0,
+        Data
+    };
+
     static public Random rnd = new Random();
-    public const string filePath = "C:\\Users\\Administrator\\Desktop\\새 폴더\\Reports\\";
-    public const string dataPath = "C:\\Users\\Administrator\\Desktop\\새 폴더\\Data\\";
+
+    static private string basePath = AppDomain.CurrentDomain.BaseDirectory;
+    static private string restPath = Path.Combine(basePath, @"..\..\..\..\..\");
+
+    static public string? FilePath(PathWay pathWay)
+    {
+        switch(pathWay)
+        {
+            case PathWay.Reports:
+                string reposPath = restPath + @"Reports\";
+                return Path.GetFullPath(reposPath);
+            case PathWay.Data:
+                string dataPath = restPath + @"Data\";
+                return Path.GetFullPath(dataPath);
+            default:
+                Error("CRIT ERROR : NULL PATH DETECTED");
+                return null;
+        }
+    }
+    static public void Error(string? message = null, Exception? ex = null)
+    {
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.WriteLine(message + ex?.Message);
+        Console.ForegroundColor = ConsoleColor.White;
+    }
 }
 
 
@@ -13,6 +42,8 @@ public class Program
 {
     static void Main(string[] args)
     {
+        Console.WriteLine(Static.FilePath(Static.PathWay.Data));
+
         Benford ben = new Benford();
         BaseReport report = new BaseReport();
         List<int> numbers;
@@ -21,16 +52,16 @@ public class Program
         {
             var data = ben.Logic(100000, out numbers);
             report.Logic(data);
-            SaveNum(numbers, i, Static.dataPath);
+            SaveNum(numbers, i, Static.FilePath(Static.PathWay.Data));
         }
 
         report.Briefing();
         report.DetBriefing();
 
-        report.Save(Static.filePath);
+        report.Save(Static.FilePath(Static.PathWay.Reports));
     }
 
-    static void SaveNum(List<int> at, int time, string filePath)
+    static void SaveNum(List<int> at, int time, string? filePath)
     {
         var rt = filePath + $"Table_{time}.json";
         var ct = JsonSerializer.Serialize(at);

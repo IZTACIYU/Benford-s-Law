@@ -1,14 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\\uC0C8 \uD3F4\uB354\\ConsoleApp1\\",
+  "WorkspaceRootPath": "D:\\2021391017JHJ\\Benford-s-Law\\ConsoleApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{875A1F9D-591F-4797-8195-59EB1FD09FBD}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\administrator\\desktop\\\uC0C8 \uD3F4\uB354\\consoleapp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{875A1F9D-591F-4797-8195-59EB1FD09FBD}|ConsoleApp1\\ConsoleApp1.csproj|d:\\2021391017jhj\\benford-s-law\\consoleapp1\\consoleapp1\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{875A1F9D-591F-4797-8195-59EB1FD09FBD}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{875A1F9D-591F-4797-8195-59EB1FD09FBD}|ConsoleApp1\\ConsoleApp1.csproj|d:\\2021391017jhj\\benford-s-law\\consoleapp1\\consoleapp1\\benford.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{875A1F9D-591F-4797-8195-59EB1FD09FBD}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\benford.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{875A1F9D-591F-4797-8195-59EB1FD09FBD}|ConsoleApp1\\ConsoleApp1.csproj|d:\\2021391017jhj\\benford-s-law\\consoleapp1\\consoleapp1\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{875A1F9D-591F-4797-8195-59EB1FD09FBD}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{875A1F9D-591F-4797-8195-59EB1FD09FBD}|ConsoleApp1\\ConsoleApp1.csproj|d:\\2021391017jhj\\benford-s-law\\consoleapp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{875A1F9D-591F-4797-8195-59EB1FD09FBD}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{875A1F9D-591F-4797-8195-59EB1FD09FBD}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\administrator\\desktop\\\uC0C8 \uD3F4\uB354\\consoleapp1\\consoleapp1\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{875A1F9D-591F-4797-8195-59EB1FD09FBD}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{875A1F9D-591F-4797-8195-59EB1FD09FBD}|ConsoleApp1\\ConsoleApp1.csproj|d:\\2021391017jhj\\benford-s-law\\consoleapp1\\consoleapp1\\filesave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{875A1F9D-591F-4797-8195-59EB1FD09FBD}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\filesave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +30,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Report.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\uC0C8 \uD3F4\uB354\\ConsoleApp1\\ConsoleApp1\\Report.cs",
+              "DocumentMoniker": "D:\\2021391017JHJ\\Benford-s-Law\\ConsoleApp1\\ConsoleApp1\\Report.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Report.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\uC0C8 \uD3F4\uB354\\ConsoleApp1\\ConsoleApp1\\Report.cs",
+              "ToolTip": "D:\\2021391017JHJ\\Benford-s-Law\\ConsoleApp1\\ConsoleApp1\\Report.cs",
               "RelativeToolTip": "ConsoleApp1\\Report.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAAFAAAA",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAAwH8AAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-13T02:15:52.057Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Benford.cs",
+              "DocumentMoniker": "D:\\2021391017JHJ\\Benford-s-Law\\ConsoleApp1\\ConsoleApp1\\Benford.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Benford.cs",
+              "ToolTip": "D:\\2021391017JHJ\\Benford-s-Law\\ConsoleApp1\\ConsoleApp1\\Benford.cs",
+              "RelativeToolTip": "ConsoleApp1\\Benford.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAwB8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T00:22:15.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Table.cs",
+              "DocumentMoniker": "D:\\2021391017JHJ\\Benford-s-Law\\ConsoleApp1\\ConsoleApp1\\Table.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Table.cs",
+              "ToolTip": "D:\\2021391017JHJ\\Benford-s-Law\\ConsoleApp1\\ConsoleApp1\\Table.cs",
+              "RelativeToolTip": "ConsoleApp1\\Table.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T00:22:13.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FileSave.cs",
+              "DocumentMoniker": "D:\\2021391017JHJ\\Benford-s-Law\\ConsoleApp1\\ConsoleApp1\\FileSave.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\FileSave.cs",
+              "ToolTip": "D:\\2021391017JHJ\\Benford-s-Law\\ConsoleApp1\\ConsoleApp1\\FileSave.cs",
+              "RelativeToolTip": "ConsoleApp1\\FileSave.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T00:18:12.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\uC0C8 \uD3F4\uB354\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "DocumentMoniker": "D:\\2021391017JHJ\\Benford-s-Law\\ConsoleApp1\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\uC0C8 \uD3F4\uB354\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "ToolTip": "D:\\2021391017JHJ\\Benford-s-Law\\ConsoleApp1\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAjAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-13T01:13:38.306Z",
               "EditorCaption": ""
