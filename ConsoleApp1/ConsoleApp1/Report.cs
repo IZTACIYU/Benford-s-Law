@@ -1,8 +1,4 @@
-﻿using System.Net.Http.Headers;
-using System.Runtime.Intrinsics.X86;
-using System.Text.Json;
-using System.Text.Json.Nodes;
-using static System.Runtime.InteropServices.JavaScript.JSType;
+﻿using System.Text.Json;
 
 public class BaseReport
 {
